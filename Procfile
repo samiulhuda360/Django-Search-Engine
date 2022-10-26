@@ -1,1 +1,1 @@
-web gunicorn googleclone.wsgi:application --log-file -
+web gunicorn search_engine.wsgi:application --log-file -
